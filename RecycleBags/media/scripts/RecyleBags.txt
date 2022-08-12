@@ -1,0 +1,106 @@
+module Base
+{
+
+	recipe Recycle Cloth Bags
+    {
+        EmptySandbag/Tote=1,
+
+		CanBeDoneFromFloor:true
+        SkillRequired:Tailoring=0,
+		XP:Tailoring=3,
+        Result:RippedSheets=1,
+        Sound:ClothesRipping,
+        Time:30.0,
+        Category:Bag Recycling
+    }
+
+	recipe Recycle Small Leather Bag
+    {
+        keep Scissors,
+        Bag_FannyPackFront/Bag_FannyPackBack/Bag_Satchel/Flightcase/Guitarcase/Briefcase=1,
+
+		CanBeDoneFromFloor:true
+        SkillRequired:Tailoring=0,
+		XP:Tailoring=5,
+        Result:LeatherStrips=1,
+        Sound:ClothesRipping,
+        Time:45.0,
+        Category:Bag Recycling,
+		OnCreate:Recipe.OnCreate.GeoQOLBagThread,
+    }
+	
+	recipe Recycle Medium Leather Bag
+    {
+        keep Scissors,
+        Bag_Schoolbag/Bag_DuffelBag/Bag_DuffelBagTINT/Bag_GolfBag/Handbag/Purse=1,
+
+		CanBeDoneFromFloor:true
+        SkillRequired:Tailoring=1,
+		XP:Tailoring=10,
+        Result:LeatherStrips=2,
+        Sound:ClothesRipping,
+        Time:60.0,
+        Category:Bag Recycling,
+		OnCreate:Recipe.OnCreate.GeoQOLBagThread,
+    }
+	
+	recipe Recycle Large Leather Bag
+    {
+        keep Scissors,
+        Bag_NormalHikingBag/Bag_BigHikingBag/Suitcase=1,
+
+		CanBeDoneFromFloor:true
+        SkillRequired:Tailoring=2,
+		XP:Tailoring=15,
+        Result:LeatherStrips=3,
+        Sound:ClothesRipping,
+        Time:75.0,
+        Category:Bag Recycling,
+		OnCreate:Recipe.OnCreate.GeoQOLBagThread,
+    }
+	
+	recipe Recycle Large Backpack
+    {
+        keep Scissors,
+        Bag_ALICEpack=1,
+
+		CanBeDoneFromFloor:true
+        SkillRequired:Tailoring=3,
+		XP:Tailoring=20,
+        Result:LeatherStrips=4,
+        Sound:ClothesRipping,
+        Time:90.0,
+        Category:Bag Recycling,
+		OnCreate:Recipe.OnCreate.GeoQOLBagThread,
+    }
+	
+	recipe Recycle Military Backpack
+    {
+        keep Scissors,
+        Bag_ALICEpack_Army=1,
+
+		CanBeDoneFromFloor:true
+        SkillRequired:Tailoring=3,
+		XP:Tailoring=20,
+        Result:LeatherStrips=4,
+        Sound:ClothesRipping,
+        Time:90.0,
+        Category:Bag Recycling,
+		OnCreate:Recipe.OnCreate.GeoQOLBagThread,
+    }
+	
+	recipe Recycle Metal Container
+    {
+        keep [Recipe.GetItemTypes.Hammer],
+        FirstAidKit/Lunchbox/Lunchbox2/SewingKit/PistolCase1/PistolCase2/PistolCase3/Toolbox,
+
+		CanBeDoneFromFloor:true
+        SkillRequired:MetalWelding=1,
+		XP:MetalWelding=10,
+        Result:ScrapMetal=1,
+        Sound:Hammering,
+        Time:60.0,
+        Category:Bag Recycling
+    }
+
+}

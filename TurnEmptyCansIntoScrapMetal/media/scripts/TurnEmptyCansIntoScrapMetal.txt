@@ -1,0 +1,17 @@
+module Base
+{
+
+	recipe Turn Cans Into Scrap Metal
+	{
+		PopEmpty/Pop2Empty/Pop3Empty/TinCanEmpty/BeerCanEmpty=8,
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:ScrapMetal=1,
+		Sound:Hammering,
+		Time:30.0,
+		SkillRequired:MetalWelding=0,
+		XP:MetalWelding=5,
+		Category:Welding
+	}
+
+}

@@ -1,0 +1,32 @@
+module Base
+{
+
+	recipe Craft Gas Can using Adhesive Tape
+	{
+		BleachEmpty=2,
+		Scotchtape=4,
+		keep Scissors,
+		
+		Result:EmptyPetrolCan=1,
+		Sound:ClothesRipping,
+		Time:200.0,
+		SkillRequired:Tailoring=1,
+		XP:Tailoring=10,
+		Category:Survivalist
+	}
+	
+	recipe Craft Gas Can using Duct Tape
+	{
+		BleachEmpty=2,
+		DuctTape=2,
+		keep Scissors,
+		
+		Result:EmptyPetrolCan=1,
+		Sound:ClothesRipping,
+		Time:200.0,
+		SkillRequired:Tailoring=1,
+		XP:Tailoring=10,
+		Category:Survivalist
+	}
+
+}
