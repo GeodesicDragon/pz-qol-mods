@@ -3,7 +3,7 @@ module Base
 
 	recipe Recycle Cloth Bags
     {
-        EmptySandbag/Tote=1,
+        EmptySandbag/SeedBag/Tote=1,
 
 		CanBeDoneFromFloor:true
         SkillRequired:Tailoring=0,

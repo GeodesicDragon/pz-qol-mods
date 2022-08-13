@@ -1,0 +1,34 @@
+module Base
+{
+
+	item GeoQOL_RippedSheetBox
+	{
+		DisplayCategory = Material,
+		Weight		= 1.5,
+		Type		= Normal,
+		DisplayName	= Box of Ripped Sheets,
+		Icon		= PaperclipBox,
+		WorldStaticModel = PaperclipBox,
+	}
+	
+	item GeoQOL_DenimStripsBox
+	{
+		DisplayCategory = Material,
+		Weight		= 1.5,
+		Type		= Normal,
+		DisplayName	= Box of Denim Strips,
+		Icon		= PaperclipBox,
+		WorldStaticModel = PaperclipBox,
+	}
+	
+	item GeoQOL_LeatherStripsBox
+	{
+		DisplayCategory = Material,
+		Weight		= 1.5,
+		Type		= Normal,
+		DisplayName	= Box of Leather Strips,
+		Icon		= PaperclipBox,
+		WorldStaticModel = PaperclipBox,
+	}
+
+}

@@ -1,0 +1,62 @@
+module Base
+{
+
+	/****************************** Packing ******************************/
+
+	recipe Pack Ripped Sheets Into Box
+    {
+        RippedSheets=100,
+
+        Result:GeoQOL_RippedSheetBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+	
+	recipe Pack Denim Strips Into Box
+    {
+        DenimStrips=100,
+
+        Result:GeoQOL_DenimStripsBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+	
+	recipe Pack Leather Strips Into Box
+    {
+        LeatherStrips=100,
+
+        Result:GeoQOL_LeatherStripsBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+	/****************************** Unpacking ******************************/
+
+	recipe Open Box Of Ripped Sheets
+    {
+        GeoQOL_RippedSheetBox,
+
+        Result:RippedSheets=100,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+	
+	recipe Open Box Of Denim Strips
+    {
+        GeoQOL_DenimStripsBox,
+
+        Result:DenimStrips=100,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+	
+	recipe Open Box Of Leather Strips
+    {
+        GeoQOL_LeatherStripsBox,
+
+        Result:LeatherStrips=100,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+}
