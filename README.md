@@ -1,3 +1,11 @@
+# MANUAL INSTALLATION INSTRUCTIONS
+
+1) Download the latest release.
+2) Open the zip file and open the *pz-qol-mods-(VERSION NUMBER)* folder.
+3) Drag and drop the folders to your Project Zomboid mods folder. This is usually *C:/Users/(YOUR USER NAME)/Zomboid/mods*.
+4) Start the game and enable mods as you normally would.
+5) If you encounter any problems, please contact me via my Discord server: https://discord.gg/BGKnpza
+
 # ABOUT
 
 A collection of mods for Project Zomboid that add what I think are useful QOL features.
