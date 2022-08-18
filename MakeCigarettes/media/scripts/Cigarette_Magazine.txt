@@ -1,0 +1,17 @@
+module Base
+{
+
+    item GeoQOLCigaretteMagazine
+    {
+        DisplayCategory = SkillBook,
+        Weight = 0.1,
+        Type = Literature,
+        DisplayName = How To Make Cigarettes Using Paper And A Sack,
+        Icon = Magazine,
+        TeachedRecipes = Make Cigarettes Using Paper And Sack,
+        ReplaceOnUse = GeoQOLCigaretteMagazine,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+	
+}

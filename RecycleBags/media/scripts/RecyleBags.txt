@@ -32,7 +32,7 @@ module Base
 	recipe Recycle Medium Leather Bag
     {
         keep Scissors,
-        Bag_Schoolbag/Bag_DuffelBag/Bag_DuffelBagTINT/Bag_GolfBag/Handbag/Purse=1,
+        Bag_Schoolbag/Bag_DuffelBag/Bag_DuffelBagTINT/Bag_GolfBag/Handbag/Purse/Bag_MedicalBag=1,
 
 		CanBeDoneFromFloor:true
         SkillRequired:Tailoring=1,

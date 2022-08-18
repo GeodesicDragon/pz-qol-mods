@@ -1,0 +1,15 @@
+module Base
+{
+
+    recipe Make Cigarettes Using Paper And Sack
+    {
+       EmptySandbag,
+       SheetPaper2=10,
+	   
+       Result:Cigarettes=100,
+       Time:120.0,
+       NeedToBeLearn:true,
+       Category:Survivalist
+    }
+	
+}
