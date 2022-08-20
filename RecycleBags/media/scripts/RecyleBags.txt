@@ -3,7 +3,20 @@ module Base
 
 	recipe Recycle Cloth Bags
     {
-        EmptySandbag/SeedBag/Tote=1,
+        EmptySandbag/Tote=1,
+
+		CanBeDoneFromFloor:true
+        SkillRequired:Tailoring=0,
+		XP:Tailoring=3,
+        Result:RippedSheets=1,
+        Sound:ClothesRipping,
+        Time:30.0,
+        Category:Bag Recycling
+    }
+	
+	recipe Recycle Seed Bags
+    {
+        SeedBag,
 
 		CanBeDoneFromFloor:true
         SkillRequired:Tailoring=0,

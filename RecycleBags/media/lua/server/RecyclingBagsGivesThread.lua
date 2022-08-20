@@ -11,9 +11,9 @@ function Recipe.OnCreate.GeoQOLBagThread(items, result, player)
 
 	local TailoringLevel = player:getPerkLevel(Perks.Tailoring)
 	
-	if TailoringLevel >= 3 and TailoringLevel <= 6  then
+	if TailoringLevel >= 3 and TailoringLevel <= 8  then
 		player:getInventory():AddItem("Base.Thread")
-	elseif TailoringLevel >= 7 and TailoringLevel <= 10  then
+	elseif TailoringLevel >= 9 then
 		player:getInventory():AddItem("Base.Thread")
 		player:getInventory():AddItem("Base.Thread")
 	end
